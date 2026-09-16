@@ -78,14 +78,14 @@ We started by discussing the capabilties we wanted for the robot. The robot need
 ### Block Collection
 Before deciding how to collect the blocks, we needed a way to store the blocks in the robot. We decided on using a slide/tray where blocks will slide to the bottom. Thus, we needed a way to grab the blocks and place them at the top of the tray. This was done using a grab-and-lift mechanism, powered by one motor. To make the collection more consistent, we made the sides of the tray taller near the grab-and-lift and added a back-plate to keep the blocks as high up as possible.
 
-Grab-and-lift mechanism: 
+Grab-and-lift mechanism: \
 <img width="400" height="300" alt="grab-and-lift" src="https://github.com/user-attachments/assets/2c18763b-bdbb-47fa-9e41-a6f02bb241f9" />
 
 
 ### Block Deposition
 To deploy the blocks, we need something to take one block from the tray. This was done with an additional ramp that had a curve to stop blocks from sliding down. When the deposition ramp was active, the selected block slides down it, guided by walls, to consistently go on the ship.
 
-Deposition ramp: 
+Deposition ramp:\
 <img width="400" height="300" alt="deposition-ramp" src="https://github.com/user-attachments/assets/ec9adbdd-d810-4465-b7b2-5d9ff7efed73" />
 
 
@@ -93,10 +93,10 @@ Deposition ramp:
 
 To manipulate the small ship, we had an arm in the front, which was able to cover and hold the ship. Due to motor limitations, we had to gear it to the block deposition since both could be operated independently. To manipulate the large ship, we had a rubber band deployed arm, similar to the one for the small ship. This could not be geared to any other mechanism since we didn't want it to interfere with the rest of the run. To solve this, we added two stoppers. One stopper went away whenever the deposition ramp was deployed. The other stopper went away whenever the grab-and-lift arm was down. Thus, when any one mechanism was deployed, one stopper remains, preventing the arm from deploying. Only when both mechanisms are deployed can the rear arm deploy. This acts as a mechanical "AND" gate.
 
-Small ship arm:
+Small ship arm:\
 <img width="400" height="300" alt="small-ship-arm" src="https://github.com/user-attachments/assets/8af694d6-0911-417c-8fb4-570ef77bad58" />
 
-Large ship arm: 
+Large ship arm: \
 <img width="400" height="300" alt="large-ship-arm" src="https://github.com/user-attachments/assets/68e3c2c7-0ba8-4d4e-ade0-5100c4da931a" />
 
 ## Program Design Process
