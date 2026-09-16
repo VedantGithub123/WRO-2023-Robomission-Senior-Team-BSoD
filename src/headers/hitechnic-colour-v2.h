@@ -34,14 +34,14 @@
  */
 
 #pragma systemFile
-#include "hitechnic-sensormux.h"
+#include "headers/hitechnic-sensormux.h"
 
 #ifndef __COMMON_H__
-#include "common.h"
+#include "headers/common.h"
 #endif
 
 #ifndef __LIGHT_COMMON_H__
-#include "common-light.h"
+#include "headers/common-light.h"
 #endif
 
 #define HTCS2_I2C_ADDR        0x02      /*!< HTCS2 I2C device address */

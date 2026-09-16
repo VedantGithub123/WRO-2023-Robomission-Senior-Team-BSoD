@@ -27,7 +27,7 @@
 #pragma systemFile
 
 #ifndef __COMMON_H__
-#include "common.h"
+#include "headers/common.h"
 #endif
 
 #define __HTSMUX_SUPPORT__

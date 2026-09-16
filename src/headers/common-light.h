@@ -9,7 +9,7 @@
 #define __LIGHT_COMMON_H__
 
 #ifndef __COMMON_H__
-#include "common.h"
+#include "headers/common.h"
 #endif
 
 /** \file common-light.h
