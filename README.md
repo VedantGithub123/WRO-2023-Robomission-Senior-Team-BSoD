@@ -26,7 +26,7 @@ WRO-2023-Robomission-Senior-Team-BSoD/
 ├── src/
 │   ├── headers/
 │   ├── scripts/
-│   └── zones/
+│   ├── zones/
 │   └── run.c
 └── README.md
 ```
